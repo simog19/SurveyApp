@@ -1,0 +1,73 @@
+.below-nav {
+  padding-top: 4rem;
+}
+
+.btn-add {
+  font-size: 24px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.scroll-y {
+  overflow-y: auto;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.icon-button {
+  background: none;
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 0 4px;
+}
+
+.icon-button:hover,
+.icon-button:focus {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.icon-button:active {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.checkbox {
+  padding:  .375rem .75rem;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+
+
+.loader {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.login-form {
+  max-width: 350px;
+  padding: 40px;
+}
+
+.svg-icon {
+  padding: 2px 4px;
+}
+.carousel-indicators li { visibility: hidden; }
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 40px;
+  color: #ff0000;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 40px;
+  color: #ff0000;
+}
